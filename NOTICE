@@ -1,0 +1,135 @@
+Black.css - CherryStudio Dark Theme
+Copyright (C) 2025
+
+This project is licensed under the GNU Affero General Public License v3.0
+or later (AGPL-3.0+).
+
+================================================================================
+                    ATTRIBUTION AND THIRD-PARTY COMPONENTS
+================================================================================
+
+This work incorporates ideas, inspiration, and code from the following projects.
+We gratefully acknowledge the contributions of these authors and projects.
+
+--------------------------------------------------------------------------------
+1. just-flowing-border.css
+--------------------------------------------------------------------------------
+   Description:    Maple Neon Minimal Theme for Cherry Studio
+                   Focuses on AI agent running marquee effects for input bar
+   Source:         [Original repository URL if available]
+   Usage:          Input bar flowing border animation and AI status effects
+   
+   Code Used:
+   - @keyframes ai-running-gradient animation
+   - @keyframes ai-thinking-pulse animation (modified)
+   - @keyframes ai-data-flow animation
+   - #inputbar::before pseudo-element structure
+   - #inputbar.ai-thinking styles
+   - .ai-status-dot indicator styles
+   - Responsive and accessibility media queries
+   
+   Modifications Made:
+   - Optimized ai-thinking-pulse animation: changed from box-shadow to opacity
+     for better GPU performance
+   - Simplified gradient colors from 6 colors to 4 colors
+   - Adjusted animation timing and easing functions
+   - Reduced animation duration for better responsiveness
+   
+   License:        No explicit license header found
+                   Assumed MIT-like permissive license based on public availability
+
+--------------------------------------------------------------------------------
+2. LuminaFlow.css
+--------------------------------------------------------------------------------
+   Author:         RMSHE
+   Copyright:      Copyright (C) 2025 RMSHE. All rights reserved.
+   Contact:        asdfghjkl851@outlook.com
+   License:        GNU Affero General Public License v3.0 (AGPL-3.0)
+   
+   Usage:          CSS variable organization patterns and component styling concepts
+   
+   Note:           No direct code copying occurred. This project was inspired by
+                   the structural organization and naming conventions used in
+                   LuminaFlow.css, including:
+   - CSS custom properties (variables) naming patterns
+   - Component selector organization
+   - Animation structure concepts
+   
+   The actual implementation and specific values are original to this project.
+
+--------------------------------------------------------------------------------
+3. CherryStudio-by-bilibili.css
+--------------------------------------------------------------------------------
+   Theme Name:     CherryStudio-by-bilibili
+   Author:         yihao li
+   Contact:        2793415370@qq.com
+   Version:        1.0
+   License:        Unknown (no explicit license declared)
+   
+   Usage:          General theme concepts and font import references
+   
+   Elements Referenced:
+   - @import font URLs from fontsapi.zeoseven.com
+   - Input bar animation concept (implementation is different)
+   - General dark theme color palette concepts
+   
+   Note:           This project does not contain direct code copying from
+                   CherryStudio-by-bilibili.css. Only general concepts and
+                   publicly available font resources were referenced.
+
+--------------------------------------------------------------------------------
+4. Hatsune Miku.css
+--------------------------------------------------------------------------------
+   License:        Unknown (no explicit license declared)
+   
+   Usage:          Theme variable organization concepts
+   
+   Elements Referenced:
+   - CSS custom properties organization pattern
+   - Light/dark theme variable structure
+   - Background image handling approach
+   
+   Note:           No direct code copying. Only conceptual inspiration for
+                   organizing CSS variables and theme structure.
+
+================================================================================
+                           DISCLAIMER
+================================================================================
+
+This project is not officially affiliated with, endorsed by, or connected to:
+- Cherry Studio
+- Any of the referenced projects or their authors
+- Any trademarks mentioned herein
+
+All trademarks and registered trademarks are the property of their respective
+owners.
+
+================================================================================
+                         LICENSE COMPATIBILITY
+================================================================================
+
+This project uses AGPL-3.0 license, which is compatible with:
+
+- MIT License (assumed for just-flowing-border.css)
+- AGPL-3.0 (LuminaFlow.css)
+- Projects without explicit license (CherryStudio-by-bilibili.css, Hatsune Miku.css)
+  when only concepts and ideas are used, not direct code copying
+
+If you are the author of any referenced project and believe your work has been
+improperly attributed or licensed, please contact us to resolve any concerns.
+
+================================================================================
+                           CONTACT
+================================================================================
+
+For questions about licensing, attribution, or contributions, please:
+- Open an issue on the GitHub repository
+- Contact the project maintainer
+
+================================================================================
+                    ADDITIONAL RESOURCES
+================================================================================
+
+- GNU AGPL-3.0 Full Text: https://www.gnu.org/licenses/agpl-3.0.txt
+- GNU Licensing Guide: https://www.gnu.org/licenses/gpl-howto.html
+- Open Source Initiative: https://opensource.org/licenses/AGPL-3.0
